@@ -1,0 +1,182 @@
+{
+  "stage": "1013R_R201J_P1_TEACHER_READABLE_CONTENT_REVIEW_PACK",
+  "sample_id": "plain_segment_weaving",
+  "lesson_label": "穿穿编编",
+  "confirm_item_count": 29,
+  "items": [
+    {
+      "path": "basis[1]",
+      "text": "本课依据上传原稿定位为四年级《穿穿编编（第1课时）》，所属单元为“第二单元 编织·纸艺”。；本课的学习重心，是围绕“认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习”，让学生先观察或回忆已有经验，再通过方法尝试和作品表达说明自己的发现。；教材版本、册次、页码和学校实际进度仍需教师确认后再进入正式备课。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "basis[1].projection_basis",
+      "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "student_analysis[1]",
+      "text": "四年级学生进入本课时，可能先卡在这里：学生可能知道要完成什么作品或练习，却还需要教师帮助他们把观察发现、材料方法和作品效果联系起来。；课堂上可重点看：学生可能说得出想法却不知道从哪一步开始，或作品完成后说不清为什么这样处理；学生可能把示范当成唯一答案，或忽略工具安全和材料连接限制。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "student_analysis[1].projection_basis",
+      "text": "导入：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "student_analysis[1].projection_basis",
+      "text": "历史介绍：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "student_analysis[1].projection_basis",
+      "text": "认识经纬：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "student_analysis[1].projection_basis",
+      "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "objectives[1]",
+      "text": "上传原文未明确提供，需教师补充。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "key_difficult_points[1]",
+      "text": "上传原文未明确提供，需教师补充。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "key_difficult_points[1].projection_basis",
+      "text": "导入：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "key_difficult_points[1].projection_basis",
+      "text": "历史介绍：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "key_difficult_points[1].projection_basis",
+      "text": "认识经纬：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "preparation[1]",
+      "text": "上传原文未明确提供，需教师补充。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "preparation[1].projection_basis",
+      "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "preparation[1].projection_basis",
+      "text": "剪刀、胶水或热熔胶等工具的安全与分组管理需要教师确认。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "assessment_or_homework[1]",
+      "text": "观察证据：导入，用于该环节的顺序依据来自原文流程，具体因果需要教师确认。；观察证据：历史介绍，用于该环节的顺序依据来自原文流程，具体因果需要教师确认。；观察证据：认识经纬，用于该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "assessment_or_homework[1].projection_basis",
+      "text": "导入：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "assessment_or_homework[1].projection_basis",
+      "text": "历史介绍：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "assessment_or_homework[1].projection_basis",
+      "text": "认识经纬：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "reflection_or_notes[1]",
+      "text": "课前导入预览阶段不生成课堂后记；真实授课后再根据课堂证据和教师判断形成反思候选。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "reflection_or_notes[1].projection_basis",
+      "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "process_episodes[1]",
+      "text": "导入：学生能先说自己的发现或选择，再完成相应的观察、练习或作品片段",
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据"
+    },
+    {
+      "path": "process_episodes[1].micro_steps[1]",
+      "text": "导入 / 导入：出示编织实物（竹编/藤编），引出\"编织\"主题",
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据"
+    },
+    {
+      "path": "process_episodes[2]",
+      "text": "历史介绍：学生能先说自己的发现或选择，再完成相应的观察、练习或作品片段",
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据"
+    },
+    {
+      "path": "process_episodes[2].micro_steps[1]",
+      "text": "历史介绍 / 历史介绍：编织的历史：七千年前席子→结绳记事→彩陶编织纹样",
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据"
+    },
+    {
+      "path": "process_episodes[3]",
+      "text": "认识经纬：学生能先说自己的发现或选择，再完成相应的观察、练习或作品片段",
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据"
+    },
+    {
+      "path": "process_episodes[3].micro_steps[1]",
+      "text": "认识经纬 / 认识经纬：认识经线（竖向固定）和纬线（横向穿过），理解交织原理",
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据"
+    },
+    {
+      "path": "process_episodes[6]",
+      "text": "小结：学生能展示当前成果或学习发现，确认还需要补充的证据",
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据"
+    },
+    {
+      "path": "process_episodes[6].micro_steps[1]",
+      "text": "小结 / 小结：展示优秀作品，说说编织的关键在哪里",
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据"
+    }
+  ]
+}
