@@ -1,0 +1,212 @@
+{
+  "stage": "1013R_R201J_P1_TEACHER_READABLE_CONTENT_REVIEW_PACK",
+  "status": "PASS",
+  "decision": "PASS_AS_TEACHER_READABLE_REVIEW_PACK_CREATED_NOT_CONTENT_QUALITY_PASS",
+  "checks": {
+    "r201j_pass_as_instance_conformance_smoke": true,
+    "five_teacher_readable_snapshots_created": true,
+    "content_quality_self_notes_created": true,
+    "source_gap_and_teacher_confirm_items_created": true,
+    "instance_to_teacher_snapshot_trace_created": true,
+    "no_schema_modified": true,
+    "no_generation_chain_modified": true,
+    "no_route_binding": true,
+    "no_formal_apply": true,
+    "no_write": true,
+    "no_R95": true,
+    "no_model_provider_call": true,
+    "not_teacher_content_quality_pass": true,
+    "py_compile_pass": true
+  },
+  "sample_results": [
+    {
+      "sample_id": "real_downpour_docx",
+      "lesson_label": "下雨啰",
+      "format_type": "formal_docx",
+      "source_path": "knowledge-base\\lesson-cases\\kb_art_g4_lesson_case_1_132144fe0b_课时1_下雨啰_教案.docx",
+      "input_instance": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_SINGLE_LESSON_TEMPLATE_INSTANCE_CONFORMANCE_SMOKE\\sample_instances\\real_downpour_docx\\single_lesson_template_instance.json",
+      "episode_count": 6,
+      "teacher_confirm_item_count": 26,
+      "missing_key_teacher_talk_count": 6,
+      "missing_key_teacher_talk_episodes": [
+        "课堂导入",
+        "观察雨",
+        "诗词引入",
+        "线描示范",
+        "线描练习",
+        "分享小结"
+      ],
+      "thin_sections": [
+        "objectives",
+        "key_difficult_points",
+        "preparation"
+      ],
+      "engineering_term_hit_count": 0,
+      "engineering_term_hits": [],
+      "readability_review_status": "NEEDS_HUMAN_TEACHER_REVIEW",
+      "self_notes": [
+        "部分前置字段较薄，建议人工重点看依据、学情、目标和重难点是否支撑后续教学过程。",
+        "存在关键话术缺失环节，快照已标为原实例未提供，后续需修投影或生成链。",
+        "存在需教师确认项，不能把本快照视作正式教案。"
+      ],
+      "teacher_readable_lesson_snapshot": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_P1_TEACHER_READABLE_CONTENT_REVIEW_PACK\\sample_snapshots\\real_downpour_docx\\teacher_readable_lesson_snapshot.md",
+      "source_gap_and_teacher_confirm_items": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_P1_TEACHER_READABLE_CONTENT_REVIEW_PACK\\sample_snapshots\\real_downpour_docx\\source_gap_and_teacher_confirm_items.md",
+      "instance_to_teacher_snapshot_trace": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_P1_TEACHER_READABLE_CONTENT_REVIEW_PACK\\sample_snapshots\\real_downpour_docx\\instance_to_teacher_snapshot_trace.json"
+    },
+    {
+      "sample_id": "minimal_line_fish",
+      "lesson_label": "线条小鱼",
+      "format_type": "minimal",
+      "source_path": "inline_r201d_minimal_fixture",
+      "input_instance": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_SINGLE_LESSON_TEMPLATE_INSTANCE_CONFORMANCE_SMOKE\\sample_instances\\minimal_line_fish\\single_lesson_template_instance.json",
+      "episode_count": 3,
+      "teacher_confirm_item_count": 23,
+      "missing_key_teacher_talk_count": 3,
+      "missing_key_teacher_talk_episodes": [
+        "看鱼图片，说一说鱼身上有什么线条",
+        "教师示范用波浪线、折线、点线装饰鱼",
+        "学生画一条线条小鱼"
+      ],
+      "thin_sections": [
+        "basis",
+        "objectives",
+        "key_difficult_points",
+        "preparation"
+      ],
+      "engineering_term_hit_count": 0,
+      "engineering_term_hits": [],
+      "readability_review_status": "NEEDS_HUMAN_TEACHER_REVIEW",
+      "self_notes": [
+        "部分前置字段较薄，建议人工重点看依据、学情、目标和重难点是否支撑后续教学过程。",
+        "存在关键话术缺失环节，快照已标为原实例未提供，后续需修投影或生成链。",
+        "存在需教师确认项，不能把本快照视作正式教案。"
+      ],
+      "teacher_readable_lesson_snapshot": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_P1_TEACHER_READABLE_CONTENT_REVIEW_PACK\\sample_snapshots\\minimal_line_fish\\teacher_readable_lesson_snapshot.md",
+      "source_gap_and_teacher_confirm_items": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_P1_TEACHER_READABLE_CONTENT_REVIEW_PACK\\sample_snapshots\\minimal_line_fish\\source_gap_and_teacher_confirm_items.md",
+      "instance_to_teacher_snapshot_trace": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_P1_TEACHER_READABLE_CONTENT_REVIEW_PACK\\sample_snapshots\\minimal_line_fish\\instance_to_teacher_snapshot_trace.json"
+    },
+    {
+      "sample_id": "numbered_colon_old_shoes",
+      "lesson_label": "旧鞋 / 足下生辉",
+      "format_type": "numbered_colon",
+      "source_path": "inline_from_R201B",
+      "input_instance": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_SINGLE_LESSON_TEMPLATE_INSTANCE_CONFORMANCE_SMOKE\\sample_instances\\numbered_colon_old_shoes\\single_lesson_template_instance.json",
+      "episode_count": 5,
+      "teacher_confirm_item_count": 17,
+      "missing_key_teacher_talk_count": 5,
+      "missing_key_teacher_talk_episodes": [
+        "回顾草图与任务确认",
+        "制作路径讨论",
+        "旧鞋作品制作",
+        "5句话设计故事",
+        "新鞋发布会准备"
+      ],
+      "thin_sections": [
+        "preparation"
+      ],
+      "engineering_term_hit_count": 0,
+      "engineering_term_hits": [],
+      "readability_review_status": "NEEDS_HUMAN_TEACHER_REVIEW",
+      "self_notes": [
+        "部分前置字段较薄，建议人工重点看依据、学情、目标和重难点是否支撑后续教学过程。",
+        "存在关键话术缺失环节，快照已标为原实例未提供，后续需修投影或生成链。",
+        "存在需教师确认项，不能把本快照视作正式教案。"
+      ],
+      "teacher_readable_lesson_snapshot": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_P1_TEACHER_READABLE_CONTENT_REVIEW_PACK\\sample_snapshots\\numbered_colon_old_shoes\\teacher_readable_lesson_snapshot.md",
+      "source_gap_and_teacher_confirm_items": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_P1_TEACHER_READABLE_CONTENT_REVIEW_PACK\\sample_snapshots\\numbered_colon_old_shoes\\source_gap_and_teacher_confirm_items.md",
+      "instance_to_teacher_snapshot_trace": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_P1_TEACHER_READABLE_CONTENT_REVIEW_PACK\\sample_snapshots\\numbered_colon_old_shoes\\instance_to_teacher_snapshot_trace.json"
+    },
+    {
+      "sample_id": "plain_segment_weaving",
+      "lesson_label": "穿穿编编",
+      "format_type": "plain_segment",
+      "source_path": "knowledge-base\\lesson-cases\\kb_art_g4_lesson_case_1_39f6102808_课时1_穿穿编编_教案.docx",
+      "input_instance": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_SINGLE_LESSON_TEMPLATE_INSTANCE_CONFORMANCE_SMOKE\\sample_instances\\plain_segment_weaving\\single_lesson_template_instance.json",
+      "episode_count": 6,
+      "teacher_confirm_item_count": 29,
+      "missing_key_teacher_talk_count": 6,
+      "missing_key_teacher_talk_episodes": [
+        "导入",
+        "历史介绍",
+        "认识经纬",
+        "教师示范",
+        "学生练习",
+        "小结"
+      ],
+      "thin_sections": [
+        "objectives",
+        "key_difficult_points",
+        "preparation"
+      ],
+      "engineering_term_hit_count": 0,
+      "engineering_term_hits": [],
+      "readability_review_status": "NEEDS_HUMAN_TEACHER_REVIEW",
+      "self_notes": [
+        "部分前置字段较薄，建议人工重点看依据、学情、目标和重难点是否支撑后续教学过程。",
+        "存在关键话术缺失环节，快照已标为原实例未提供，后续需修投影或生成链。",
+        "存在需教师确认项，不能把本快照视作正式教案。"
+      ],
+      "teacher_readable_lesson_snapshot": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_P1_TEACHER_READABLE_CONTENT_REVIEW_PACK\\sample_snapshots\\plain_segment_weaving\\teacher_readable_lesson_snapshot.md",
+      "source_gap_and_teacher_confirm_items": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_P1_TEACHER_READABLE_CONTENT_REVIEW_PACK\\sample_snapshots\\plain_segment_weaving\\source_gap_and_teacher_confirm_items.md",
+      "instance_to_teacher_snapshot_trace": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_P1_TEACHER_READABLE_CONTENT_REVIEW_PACK\\sample_snapshots\\plain_segment_weaving\\instance_to_teacher_snapshot_trace.json"
+    },
+    {
+      "sample_id": "table_rain_umbrella",
+      "lesson_label": "雨伞图案设计",
+      "format_type": "table_or_structured",
+      "source_path": "inline_r201d_table_fixture",
+      "input_instance": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_SINGLE_LESSON_TEMPLATE_INSTANCE_CONFORMANCE_SMOKE\\sample_instances\\table_rain_umbrella\\single_lesson_template_instance.json",
+      "episode_count": 4,
+      "teacher_confirm_item_count": 23,
+      "missing_key_teacher_talk_count": 4,
+      "missing_key_teacher_talk_episodes": [
+        "导入观察",
+        "方法示范",
+        "设计制作",
+        "展示评价"
+      ],
+      "thin_sections": [
+        "basis",
+        "objectives",
+        "key_difficult_points",
+        "preparation"
+      ],
+      "engineering_term_hit_count": 0,
+      "engineering_term_hits": [],
+      "readability_review_status": "NEEDS_HUMAN_TEACHER_REVIEW",
+      "self_notes": [
+        "部分前置字段较薄，建议人工重点看依据、学情、目标和重难点是否支撑后续教学过程。",
+        "存在关键话术缺失环节，快照已标为原实例未提供，后续需修投影或生成链。",
+        "存在需教师确认项，不能把本快照视作正式教案。"
+      ],
+      "teacher_readable_lesson_snapshot": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_P1_TEACHER_READABLE_CONTENT_REVIEW_PACK\\sample_snapshots\\table_rain_umbrella\\teacher_readable_lesson_snapshot.md",
+      "source_gap_and_teacher_confirm_items": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_P1_TEACHER_READABLE_CONTENT_REVIEW_PACK\\sample_snapshots\\table_rain_umbrella\\source_gap_and_teacher_confirm_items.md",
+      "instance_to_teacher_snapshot_trace": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_P1_TEACHER_READABLE_CONTENT_REVIEW_PACK\\sample_snapshots\\table_rain_umbrella\\instance_to_teacher_snapshot_trace.json"
+    }
+  ],
+  "outputs": {
+    "review_index": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_P1_TEACHER_READABLE_CONTENT_REVIEW_PACK\\r201j_p1_teacher_review_index.md",
+    "sample_snapshots": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_P1_TEACHER_READABLE_CONTENT_REVIEW_PACK\\sample_snapshots",
+    "content_quality_self_notes": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_P1_TEACHER_READABLE_CONTENT_REVIEW_PACK\\r201j_p1_content_quality_self_notes.md",
+    "validation_result": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_P1_TEACHER_READABLE_CONTENT_REVIEW_PACK\\validate_1013R_R201J_P1_teacher_readable_content_review_pack_result.json"
+  },
+  "boundary": {
+    "schema_modified": false,
+    "generation_chain_modified": false,
+    "route_bound": false,
+    "full_default_route_switch": false,
+    "formal_apply": false,
+    "database_written": false,
+    "feishu_written": false,
+    "memory_written": false,
+    "R95_executed": false,
+    "provider_called": false,
+    "model_called": false
+  },
+  "py_compile": {
+    "command": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python314\\python.exe -m py_compile scripts/validate_1013r_r201j_p1_teacher_readable_content_review_pack.py",
+    "returncode": 0,
+    "stdout_tail": "",
+    "stderr_tail": ""
+  }
+}
