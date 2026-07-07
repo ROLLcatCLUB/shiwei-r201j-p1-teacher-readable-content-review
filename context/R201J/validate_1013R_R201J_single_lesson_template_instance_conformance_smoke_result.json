@@ -1,0 +1,222 @@
+{
+  "stage": "1013R_R201J_SINGLE_LESSON_TEMPLATE_INSTANCE_CONFORMANCE_SMOKE",
+  "status": "PASS",
+  "decision": "PASS_AS_INSTANCE_CONFORMANCE_SMOKE",
+  "checks": {
+    "R201I_pass": true,
+    "five_samples_completed": true,
+    "every_sample_generated_single_lesson_template": true,
+    "every_instance_schema_valid": true,
+    "teacher_main_forbidden_sources_zero": true,
+    "source_gap_as_teacher_content_zero": true,
+    "provisional_without_teacher_confirmation_zero": true,
+    "engineering_term_in_teacher_main_zero": true,
+    "no_formal_apply": true,
+    "no_write": true,
+    "no_R95": true,
+    "no_model_provider_call": true,
+    "py_compile_pass": true
+  },
+  "sample_results": [
+    {
+      "sample_id": "real_downpour_docx",
+      "lesson_label": "下雨啰",
+      "format_type": "formal_docx",
+      "file_name": "kb_art_g4_lesson_case_1_132144fe0b_课时1_下雨啰_教案.docx",
+      "source_path": "knowledge-base\\lesson-cases\\kb_art_g4_lesson_case_1_132144fe0b_课时1_下雨啰_教案.docx",
+      "template_generated": true,
+      "template_type": "single_lesson_template",
+      "schema_errors": [],
+      "schema_valid": true,
+      "episode_count": 6,
+      "teacher_main_source_counts": {
+        "R114_execution_map": 75,
+        "R114_field_projection": 11,
+        "uploaded_source": 1
+      },
+      "source_status_issues": [],
+      "forbidden_source_hit_count": 0,
+      "source_gap_as_content_count": 0,
+      "provisional_without_teacher_confirmation": [],
+      "engineering_term_hits": [],
+      "boundary": {
+        "formal_apply": false,
+        "database_written": false,
+        "feishu_written": false,
+        "memory_written": false,
+        "R95_executed": false,
+        "model_called": false,
+        "provider_called": false
+      },
+      "outputs": {
+        "single_lesson_template_instance": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_SINGLE_LESSON_TEMPLATE_INSTANCE_CONFORMANCE_SMOKE\\sample_instances\\real_downpour_docx\\single_lesson_template_instance.json",
+        "instance_check_summary": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_SINGLE_LESSON_TEMPLATE_INSTANCE_CONFORMANCE_SMOKE\\sample_instances\\real_downpour_docx\\instance_check_summary.json"
+      }
+    },
+    {
+      "sample_id": "minimal_line_fish",
+      "lesson_label": "线条小鱼",
+      "format_type": "minimal",
+      "file_name": "r201d_inline_线条小鱼_极简教案.txt",
+      "source_path": "inline_r201d_minimal_fixture",
+      "template_generated": true,
+      "template_type": "single_lesson_template",
+      "schema_errors": [],
+      "schema_valid": true,
+      "episode_count": 3,
+      "teacher_main_source_counts": {
+        "R114_execution_map": 30,
+        "R114_field_projection": 10,
+        "uploaded_source": 1
+      },
+      "source_status_issues": [],
+      "forbidden_source_hit_count": 0,
+      "source_gap_as_content_count": 0,
+      "provisional_without_teacher_confirmation": [],
+      "engineering_term_hits": [],
+      "boundary": {
+        "formal_apply": false,
+        "database_written": false,
+        "feishu_written": false,
+        "memory_written": false,
+        "R95_executed": false,
+        "model_called": false,
+        "provider_called": false
+      },
+      "outputs": {
+        "single_lesson_template_instance": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_SINGLE_LESSON_TEMPLATE_INSTANCE_CONFORMANCE_SMOKE\\sample_instances\\minimal_line_fish\\single_lesson_template_instance.json",
+        "instance_check_summary": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_SINGLE_LESSON_TEMPLATE_INSTANCE_CONFORMANCE_SMOKE\\sample_instances\\minimal_line_fish\\instance_check_summary.json"
+      }
+    },
+    {
+      "sample_id": "numbered_colon_old_shoes",
+      "lesson_label": "旧鞋 / 足下生辉",
+      "format_type": "numbered_colon",
+      "file_name": "r201d_inline_足下生辉_旧鞋改造设计课.txt",
+      "source_path": "inline_from_R201B",
+      "template_generated": true,
+      "template_type": "single_lesson_template",
+      "schema_errors": [],
+      "schema_valid": true,
+      "episode_count": 5,
+      "teacher_main_source_counts": {
+        "R114_execution_map": 50,
+        "R114_field_projection": 14,
+        "uploaded_source": 2
+      },
+      "source_status_issues": [],
+      "forbidden_source_hit_count": 0,
+      "source_gap_as_content_count": 0,
+      "provisional_without_teacher_confirmation": [],
+      "engineering_term_hits": [],
+      "boundary": {
+        "formal_apply": false,
+        "database_written": false,
+        "feishu_written": false,
+        "memory_written": false,
+        "R95_executed": false,
+        "model_called": false,
+        "provider_called": false
+      },
+      "outputs": {
+        "single_lesson_template_instance": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_SINGLE_LESSON_TEMPLATE_INSTANCE_CONFORMANCE_SMOKE\\sample_instances\\numbered_colon_old_shoes\\single_lesson_template_instance.json",
+        "instance_check_summary": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_SINGLE_LESSON_TEMPLATE_INSTANCE_CONFORMANCE_SMOKE\\sample_instances\\numbered_colon_old_shoes\\instance_check_summary.json"
+      }
+    },
+    {
+      "sample_id": "plain_segment_weaving",
+      "lesson_label": "穿穿编编",
+      "format_type": "plain_segment",
+      "file_name": "kb_art_g4_lesson_case_1_39f6102808_课时1_穿穿编编_教案.docx",
+      "source_path": "knowledge-base\\lesson-cases\\kb_art_g4_lesson_case_1_39f6102808_课时1_穿穿编编_教案.docx",
+      "template_generated": true,
+      "template_type": "single_lesson_template",
+      "schema_errors": [],
+      "schema_valid": true,
+      "episode_count": 6,
+      "teacher_main_source_counts": {
+        "R114_execution_map": 60,
+        "R114_field_projection": 12,
+        "uploaded_source": 1
+      },
+      "source_status_issues": [],
+      "forbidden_source_hit_count": 0,
+      "source_gap_as_content_count": 0,
+      "provisional_without_teacher_confirmation": [],
+      "engineering_term_hits": [],
+      "boundary": {
+        "formal_apply": false,
+        "database_written": false,
+        "feishu_written": false,
+        "memory_written": false,
+        "R95_executed": false,
+        "model_called": false,
+        "provider_called": false
+      },
+      "outputs": {
+        "single_lesson_template_instance": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_SINGLE_LESSON_TEMPLATE_INSTANCE_CONFORMANCE_SMOKE\\sample_instances\\plain_segment_weaving\\single_lesson_template_instance.json",
+        "instance_check_summary": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_SINGLE_LESSON_TEMPLATE_INSTANCE_CONFORMANCE_SMOKE\\sample_instances\\plain_segment_weaving\\instance_check_summary.json"
+      }
+    },
+    {
+      "sample_id": "table_rain_umbrella",
+      "lesson_label": "雨伞图案设计",
+      "format_type": "table_or_structured",
+      "file_name": "r201d_inline_雨伞图案设计_表格型教案.txt",
+      "source_path": "inline_r201d_table_fixture",
+      "template_generated": true,
+      "template_type": "single_lesson_template",
+      "schema_errors": [],
+      "schema_valid": true,
+      "episode_count": 4,
+      "teacher_main_source_counts": {
+        "R114_execution_map": 40,
+        "R114_field_projection": 10,
+        "uploaded_source": 2
+      },
+      "source_status_issues": [],
+      "forbidden_source_hit_count": 0,
+      "source_gap_as_content_count": 0,
+      "provisional_without_teacher_confirmation": [],
+      "engineering_term_hits": [],
+      "boundary": {
+        "formal_apply": false,
+        "database_written": false,
+        "feishu_written": false,
+        "memory_written": false,
+        "R95_executed": false,
+        "model_called": false,
+        "provider_called": false
+      },
+      "outputs": {
+        "single_lesson_template_instance": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_SINGLE_LESSON_TEMPLATE_INSTANCE_CONFORMANCE_SMOKE\\sample_instances\\table_rain_umbrella\\single_lesson_template_instance.json",
+        "instance_check_summary": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_SINGLE_LESSON_TEMPLATE_INSTANCE_CONFORMANCE_SMOKE\\sample_instances\\table_rain_umbrella\\instance_check_summary.json"
+      }
+    }
+  ],
+  "outputs": {
+    "sample_instance_manifest": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_SINGLE_LESSON_TEMPLATE_INSTANCE_CONFORMANCE_SMOKE\\r201j_sample_instance_manifest.json",
+    "schema_validation_matrix": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_SINGLE_LESSON_TEMPLATE_INSTANCE_CONFORMANCE_SMOKE\\r201j_schema_validation_matrix.json",
+    "teacher_main_source_policy_check": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_SINGLE_LESSON_TEMPLATE_INSTANCE_CONFORMANCE_SMOKE\\r201j_teacher_main_source_policy_check.json",
+    "source_gap_and_provisional_check": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_SINGLE_LESSON_TEMPLATE_INSTANCE_CONFORMANCE_SMOKE\\r201j_source_gap_and_provisional_check.md",
+    "engineering_term_guard_check": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_SINGLE_LESSON_TEMPLATE_INSTANCE_CONFORMANCE_SMOKE\\r201j_engineering_term_guard_check.json",
+    "sample_instances": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_SINGLE_LESSON_TEMPLATE_INSTANCE_CONFORMANCE_SMOKE\\sample_instances",
+    "validation_result": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_SINGLE_LESSON_TEMPLATE_INSTANCE_CONFORMANCE_SMOKE\\validate_1013R_R201J_single_lesson_template_instance_conformance_smoke_result.json"
+  },
+  "boundary": {
+    "full_default_route_switch": false,
+    "formal_apply": false,
+    "database_written": false,
+    "feishu_written": false,
+    "memory_written": false,
+    "R95_executed": false,
+    "provider_called": false,
+    "model_called": false
+  },
+  "py_compile": {
+    "command": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python314\\python.exe -m py_compile scripts/validate_1013r_r201j_single_lesson_template_instance_conformance_smoke.py",
+    "returncode": 0,
+    "stdout_tail": "",
+    "stderr_tail": ""
+  }
+}
