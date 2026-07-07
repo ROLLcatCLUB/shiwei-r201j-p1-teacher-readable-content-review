@@ -1,0 +1,569 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "shiwei.single_lesson_template.v1_candidate",
+  "stage": "1013R_R201I_SINGLE_LESSON_TEMPLATE_V1_FREEZE_CANDIDATE",
+  "template_version": "single_lesson_template_v1_candidate",
+  "status": "freeze_candidate_not_quality_freeze",
+  "type": "object",
+  "required": [
+    "stage",
+    "template_id",
+    "template_type",
+    "route",
+    "lesson_header",
+    "basis",
+    "student_analysis",
+    "objectives",
+    "key_difficult_points",
+    "preparation",
+    "process_episodes",
+    "assessment_or_homework",
+    "reflection_or_notes",
+    "source_extraction",
+    "candidate_patches",
+    "renderer_policy",
+    "boundary"
+  ],
+  "properties": {
+    "stage": {
+      "type": "string"
+    },
+    "template_id": {
+      "type": "string"
+    },
+    "template_type": {
+      "const": "single_lesson_template"
+    },
+    "route": {
+      "type": "string"
+    },
+    "lesson_header": {
+      "type": "object",
+      "required": [
+        "lesson_title",
+        "unit_title",
+        "grade",
+        "lesson_code",
+        "status",
+        "source_status",
+        "teacher_visible_source_label"
+      ]
+    },
+    "basis": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "section_id",
+          "title",
+          "body",
+          "source_status",
+          "teacher_visible_source_label",
+          "teacher_review_required",
+          "preview_only"
+        ],
+        "properties": {
+          "section_id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "body": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "source_status": {
+            "enum": [
+              "uploaded_source",
+              "R114_graph",
+              "R114_execution_map",
+              "R114_field_projection",
+              "teacher_accepted_provisional_candidate"
+            ]
+          },
+          "teacher_visible_source_label": {
+            "type": "string"
+          },
+          "projection_basis": {
+            "type": "object"
+          },
+          "teacher_review_required": {
+            "type": "boolean"
+          },
+          "preview_only": {
+            "const": true
+          }
+        }
+      }
+    },
+    "student_analysis": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "section_id",
+          "title",
+          "body",
+          "source_status",
+          "teacher_visible_source_label",
+          "teacher_review_required",
+          "preview_only"
+        ],
+        "properties": {
+          "section_id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "body": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "source_status": {
+            "enum": [
+              "uploaded_source",
+              "R114_graph",
+              "R114_execution_map",
+              "R114_field_projection",
+              "teacher_accepted_provisional_candidate"
+            ]
+          },
+          "teacher_visible_source_label": {
+            "type": "string"
+          },
+          "projection_basis": {
+            "type": "object"
+          },
+          "teacher_review_required": {
+            "type": "boolean"
+          },
+          "preview_only": {
+            "const": true
+          }
+        }
+      }
+    },
+    "objectives": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "section_id",
+          "title",
+          "body",
+          "source_status",
+          "teacher_visible_source_label",
+          "teacher_review_required",
+          "preview_only"
+        ],
+        "properties": {
+          "section_id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "body": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "source_status": {
+            "enum": [
+              "uploaded_source",
+              "R114_graph",
+              "R114_execution_map",
+              "R114_field_projection",
+              "teacher_accepted_provisional_candidate"
+            ]
+          },
+          "teacher_visible_source_label": {
+            "type": "string"
+          },
+          "projection_basis": {
+            "type": "object"
+          },
+          "teacher_review_required": {
+            "type": "boolean"
+          },
+          "preview_only": {
+            "const": true
+          }
+        }
+      }
+    },
+    "key_difficult_points": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "section_id",
+          "title",
+          "body",
+          "source_status",
+          "teacher_visible_source_label",
+          "teacher_review_required",
+          "preview_only"
+        ],
+        "properties": {
+          "section_id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "body": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "source_status": {
+            "enum": [
+              "uploaded_source",
+              "R114_graph",
+              "R114_execution_map",
+              "R114_field_projection",
+              "teacher_accepted_provisional_candidate"
+            ]
+          },
+          "teacher_visible_source_label": {
+            "type": "string"
+          },
+          "projection_basis": {
+            "type": "object"
+          },
+          "teacher_review_required": {
+            "type": "boolean"
+          },
+          "preview_only": {
+            "const": true
+          }
+        }
+      }
+    },
+    "preparation": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "section_id",
+          "title",
+          "body",
+          "source_status",
+          "teacher_visible_source_label",
+          "teacher_review_required",
+          "preview_only"
+        ],
+        "properties": {
+          "section_id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "body": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "source_status": {
+            "enum": [
+              "uploaded_source",
+              "R114_graph",
+              "R114_execution_map",
+              "R114_field_projection",
+              "teacher_accepted_provisional_candidate"
+            ]
+          },
+          "teacher_visible_source_label": {
+            "type": "string"
+          },
+          "projection_basis": {
+            "type": "object"
+          },
+          "teacher_review_required": {
+            "type": "boolean"
+          },
+          "preview_only": {
+            "const": true
+          }
+        }
+      }
+    },
+    "assessment_or_homework": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "section_id",
+          "title",
+          "body",
+          "source_status",
+          "teacher_visible_source_label",
+          "teacher_review_required",
+          "preview_only"
+        ],
+        "properties": {
+          "section_id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "body": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "source_status": {
+            "enum": [
+              "uploaded_source",
+              "R114_graph",
+              "R114_execution_map",
+              "R114_field_projection",
+              "teacher_accepted_provisional_candidate"
+            ]
+          },
+          "teacher_visible_source_label": {
+            "type": "string"
+          },
+          "projection_basis": {
+            "type": "object"
+          },
+          "teacher_review_required": {
+            "type": "boolean"
+          },
+          "preview_only": {
+            "const": true
+          }
+        }
+      }
+    },
+    "reflection_or_notes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "section_id",
+          "title",
+          "body",
+          "source_status",
+          "teacher_visible_source_label",
+          "teacher_review_required",
+          "preview_only"
+        ],
+        "properties": {
+          "section_id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "body": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "source_status": {
+            "enum": [
+              "uploaded_source",
+              "R114_graph",
+              "R114_execution_map",
+              "R114_field_projection",
+              "teacher_accepted_provisional_candidate"
+            ]
+          },
+          "teacher_visible_source_label": {
+            "type": "string"
+          },
+          "projection_basis": {
+            "type": "object"
+          },
+          "teacher_review_required": {
+            "type": "boolean"
+          },
+          "preview_only": {
+            "const": true
+          }
+        }
+      }
+    },
+    "process_episodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "episode_index",
+          "episode_title",
+          "episode_goal",
+          "teacher_organization",
+          "student_learning",
+          "xiaojiao_hint",
+          "micro_steps",
+          "source_status",
+          "teacher_visible_source_label",
+          "teacher_review_required",
+          "preview_only"
+        ],
+        "properties": {
+          "episode_index": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "episode_title": {
+            "type": "string"
+          },
+          "episode_goal": {
+            "type": "string",
+            "description": "observable student learning change or evidence target"
+          },
+          "teacher_organization": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "student_learning": {
+            "type": "string"
+          },
+          "key_teacher_talk": {
+            "type": "string"
+          },
+          "xiaojiao_hint": {
+            "type": "string"
+          },
+          "micro_steps": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "step_name",
+                "teacher_action",
+                "student_action",
+                "scaffolds",
+                "evidence",
+                "source_status",
+                "preview_only"
+              ],
+              "properties": {
+                "step_name": {
+                  "type": "string"
+                },
+                "teacher_action": {
+                  "type": "string"
+                },
+                "student_action": {
+                  "type": "string"
+                },
+                "screen_or_materials": {
+                  "type": "string"
+                },
+                "scaffolds": {
+                  "type": "string"
+                },
+                "evidence": {
+                  "type": "string"
+                },
+                "source_status": {
+                  "enum": [
+                    "uploaded_source",
+                    "R114_graph",
+                    "R114_execution_map",
+                    "R114_field_projection",
+                    "teacher_accepted_provisional_candidate"
+                  ]
+                },
+                "teacher_visible_source_label": {
+                  "type": "string"
+                },
+                "teacher_review_required": {
+                  "type": "boolean"
+                },
+                "preview_only": {
+                  "const": true
+                }
+              }
+            }
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "source_status": {
+            "enum": [
+              "uploaded_source",
+              "R114_graph",
+              "R114_execution_map",
+              "R114_field_projection",
+              "teacher_accepted_provisional_candidate"
+            ]
+          },
+          "teacher_visible_source_label": {
+            "type": "string"
+          },
+          "source_extraction_provenance": {
+            "type": "object"
+          },
+          "teacher_review_required": {
+            "type": "boolean"
+          },
+          "preview_only": {
+            "const": true
+          }
+        }
+      }
+    },
+    "source_extraction": {
+      "type": "object",
+      "required": [
+        "selected_parser_id",
+        "selection_reason",
+        "confidence",
+        "episode_titles"
+      ]
+    },
+    "candidate_patches": {
+      "type": "array"
+    },
+    "renderer_policy": {
+      "type": "object",
+      "required": [
+        "backend_provides_template_object",
+        "frontend_renders_only",
+        "renderer_must_not_infer_pedagogy",
+        "source_gap_as_status_not_content"
+      ]
+    },
+    "boundary": {
+      "type": "object",
+      "required": [
+        "readonly_only",
+        "preview_only",
+        "model_called",
+        "provider_called",
+        "formal_apply",
+        "database_written",
+        "feishu_written",
+        "memory_written",
+        "R95_executed",
+        "R200A_used_for_teacher_main",
+        "R200B_used_for_teacher_main",
+        "R97B_P3_used_for_teacher_main"
+      ]
+    }
+  },
+  "freeze_note": "Freezes the contract shape and source policy only. It does not freeze final pedagogy quality, curriculum depth, wording polish, export, or formal apply."
+}
