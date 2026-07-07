@@ -1,0 +1,190 @@
+{
+  "template_id": "r201c_lean_readonly::upload_preview_770889d3dbb0",
+  "template_type": "single_lesson_template",
+  "route": "uploaded_lesson_entry_preview_lean",
+  "trace_count": 18,
+  "traces": [
+    {
+      "path": "basis[1]",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据",
+      "teacher_review_required": true,
+      "preview_only": true,
+      "projection_basis_capsule_count": 6,
+      "projection_basis_claim_count": 5
+    },
+    {
+      "path": "student_analysis[1]",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据",
+      "teacher_review_required": true,
+      "preview_only": true,
+      "projection_basis_capsule_count": 6,
+      "projection_basis_claim_count": 5
+    },
+    {
+      "path": "objectives[1]",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据",
+      "teacher_review_required": true,
+      "preview_only": true,
+      "projection_basis_capsule_count": 5,
+      "projection_basis_claim_count": 5
+    },
+    {
+      "path": "key_difficult_points[1]",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据",
+      "teacher_review_required": true,
+      "preview_only": true,
+      "projection_basis_capsule_count": 7,
+      "projection_basis_claim_count": 7
+    },
+    {
+      "path": "preparation[1]",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据",
+      "teacher_review_required": true,
+      "preview_only": true,
+      "projection_basis_capsule_count": 7,
+      "projection_basis_claim_count": 6
+    },
+    {
+      "path": "assessment_or_homework[1]",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据",
+      "teacher_review_required": true,
+      "preview_only": true,
+      "projection_basis_capsule_count": 5,
+      "projection_basis_claim_count": 5
+    },
+    {
+      "path": "assessment_or_homework[2]",
+      "source_status": "uploaded_source",
+      "teacher_visible_source_label": "上传原文依据",
+      "teacher_review_required": true,
+      "preview_only": true,
+      "projection_basis_capsule_count": 1,
+      "projection_basis_claim_count": 0
+    },
+    {
+      "path": "reflection_or_notes[1]",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据",
+      "teacher_review_required": true,
+      "preview_only": true,
+      "projection_basis_capsule_count": 3,
+      "projection_basis_claim_count": 2
+    },
+    {
+      "path": "process_episodes[1]",
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据",
+      "teacher_review_required": false,
+      "preview_only": true,
+      "projection_basis_capsule_count": 0,
+      "projection_basis_claim_count": 0
+    },
+    {
+      "path": "process_episodes[1].micro_steps[1]",
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据",
+      "teacher_review_required": false,
+      "preview_only": true,
+      "projection_basis_capsule_count": 0,
+      "projection_basis_claim_count": 0
+    },
+    {
+      "path": "process_episodes[2]",
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据",
+      "teacher_review_required": false,
+      "preview_only": true,
+      "projection_basis_capsule_count": 0,
+      "projection_basis_claim_count": 0
+    },
+    {
+      "path": "process_episodes[2].micro_steps[1]",
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据",
+      "teacher_review_required": false,
+      "preview_only": true,
+      "projection_basis_capsule_count": 0,
+      "projection_basis_claim_count": 0
+    },
+    {
+      "path": "process_episodes[3]",
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据",
+      "teacher_review_required": false,
+      "preview_only": true,
+      "projection_basis_capsule_count": 0,
+      "projection_basis_claim_count": 0
+    },
+    {
+      "path": "process_episodes[3].micro_steps[1]",
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据",
+      "teacher_review_required": false,
+      "preview_only": true,
+      "projection_basis_capsule_count": 0,
+      "projection_basis_claim_count": 0
+    },
+    {
+      "path": "process_episodes[4]",
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据",
+      "teacher_review_required": false,
+      "preview_only": true,
+      "projection_basis_capsule_count": 0,
+      "projection_basis_claim_count": 0
+    },
+    {
+      "path": "process_episodes[4].micro_steps[1]",
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据",
+      "teacher_review_required": false,
+      "preview_only": true,
+      "projection_basis_capsule_count": 0,
+      "projection_basis_claim_count": 0
+    },
+    {
+      "path": "process_episodes[5]",
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据",
+      "teacher_review_required": true,
+      "preview_only": true,
+      "projection_basis_capsule_count": 0,
+      "projection_basis_claim_count": 0
+    },
+    {
+      "path": "process_episodes[5].micro_steps[1]",
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据",
+      "teacher_review_required": true,
+      "preview_only": true,
+      "projection_basis_capsule_count": 0,
+      "projection_basis_claim_count": 0
+    }
+  ],
+  "boundary": {
+    "readonly_only": true,
+    "preview_only": true,
+    "model_called": false,
+    "provider_called": false,
+    "formal_apply": false,
+    "database_written": false,
+    "feishu_written": false,
+    "memory_written": false,
+    "R95_executed": false,
+    "R200A_used_for_teacher_main": false,
+    "R200B_used_for_teacher_main": false,
+    "R97B_P3_used_for_teacher_main": false
+  },
+  "renderer_policy": {
+    "backend_provides_template_object": true,
+    "frontend_renders_only": true,
+    "renderer_must_not_infer_pedagogy": true,
+    "source_gap_as_status_not_content": true
+  }
+}
