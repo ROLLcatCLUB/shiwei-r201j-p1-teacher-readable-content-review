@@ -1,0 +1,45 @@
+{
+  "stage": "1013R_R201I_SINGLE_LESSON_TEMPLATE_V1_FREEZE_CANDIDATE",
+  "policy_version": "teacher_main_source_policy_v1_candidate",
+  "allowed_teacher_main_source_types": [
+    "uploaded_source",
+    "R114_graph",
+    "R114_execution_map",
+    "R114_field_projection",
+    "teacher_accepted_provisional_candidate"
+  ],
+  "forbidden_teacher_main_source_types": [
+    "R200A_kernel",
+    "R200B_candidate",
+    "R97B_P3_derivation_spine",
+    "deterministic_fallback",
+    "legacy_shell",
+    "unknown",
+    "source_gap"
+  ],
+  "teacher_visible_source_labels": {
+    "uploaded_source": "上传原文依据",
+    "R114_graph": "理解图依据",
+    "R114_execution_map": "教学推进依据",
+    "R114_field_projection": "理解整理依据",
+    "teacher_accepted_provisional_candidate": "教师确认候选",
+    "source_gap": "待教师补充"
+  },
+  "engineering_terms_forbidden_in_teacher_main": [
+    "R114A",
+    "R114B",
+    "R114C",
+    "R200",
+    "R201",
+    "execution map",
+    "field projection",
+    "parser",
+    "validator",
+    "source ledger",
+    "lean chain",
+    "执行地图"
+  ],
+  "renderer_must_not_infer_pedagogy": true,
+  "source_gap_as_content_allowed": false,
+  "R200A_R200B_R97B_P3_teacher_main_allowed": false
+}
