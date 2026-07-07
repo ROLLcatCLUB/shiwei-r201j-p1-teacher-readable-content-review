@@ -1,0 +1,57 @@
+{
+  "stage": "1013R_R201J_SINGLE_LESSON_TEMPLATE_INSTANCE_CONFORMANCE_SMOKE",
+  "purpose": "Validate actual single_lesson_template instances against R201I v1 candidate schema and source policy.",
+  "sample_count": 5,
+  "samples": [
+    {
+      "sample_id": "real_downpour_docx",
+      "lesson_label": "下雨啰",
+      "format_type": "formal_docx",
+      "file_name": "kb_art_g4_lesson_case_1_132144fe0b_课时1_下雨啰_教案.docx",
+      "source_path": "knowledge-base\\lesson-cases\\kb_art_g4_lesson_case_1_132144fe0b_课时1_下雨啰_教案.docx",
+      "instance": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_SINGLE_LESSON_TEMPLATE_INSTANCE_CONFORMANCE_SMOKE\\sample_instances\\real_downpour_docx\\single_lesson_template_instance.json"
+    },
+    {
+      "sample_id": "minimal_line_fish",
+      "lesson_label": "线条小鱼",
+      "format_type": "minimal",
+      "file_name": "r201d_inline_线条小鱼_极简教案.txt",
+      "source_path": "inline_r201d_minimal_fixture",
+      "instance": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_SINGLE_LESSON_TEMPLATE_INSTANCE_CONFORMANCE_SMOKE\\sample_instances\\minimal_line_fish\\single_lesson_template_instance.json"
+    },
+    {
+      "sample_id": "numbered_colon_old_shoes",
+      "lesson_label": "旧鞋 / 足下生辉",
+      "format_type": "numbered_colon",
+      "file_name": "r201d_inline_足下生辉_旧鞋改造设计课.txt",
+      "source_path": "inline_from_R201B",
+      "instance": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_SINGLE_LESSON_TEMPLATE_INSTANCE_CONFORMANCE_SMOKE\\sample_instances\\numbered_colon_old_shoes\\single_lesson_template_instance.json"
+    },
+    {
+      "sample_id": "plain_segment_weaving",
+      "lesson_label": "穿穿编编",
+      "format_type": "plain_segment",
+      "file_name": "kb_art_g4_lesson_case_1_39f6102808_课时1_穿穿编编_教案.docx",
+      "source_path": "knowledge-base\\lesson-cases\\kb_art_g4_lesson_case_1_39f6102808_课时1_穿穿编编_教案.docx",
+      "instance": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_SINGLE_LESSON_TEMPLATE_INSTANCE_CONFORMANCE_SMOKE\\sample_instances\\plain_segment_weaving\\single_lesson_template_instance.json"
+    },
+    {
+      "sample_id": "table_rain_umbrella",
+      "lesson_label": "雨伞图案设计",
+      "format_type": "table_or_structured",
+      "file_name": "r201d_inline_雨伞图案设计_表格型教案.txt",
+      "source_path": "inline_r201d_table_fixture",
+      "instance": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201J_SINGLE_LESSON_TEMPLATE_INSTANCE_CONFORMANCE_SMOKE\\sample_instances\\table_rain_umbrella\\single_lesson_template_instance.json"
+    }
+  ],
+  "boundary": {
+    "full_default_route_switch": false,
+    "formal_apply": false,
+    "database_written": false,
+    "feishu_written": false,
+    "memory_written": false,
+    "R95_executed": false,
+    "provider_called": false,
+    "model_called": false
+  }
+}
