@@ -1,0 +1,146 @@
+{
+  "stage": "1013R_R201J_P1_TEACHER_READABLE_CONTENT_REVIEW_PACK",
+  "sample_id": "table_rain_umbrella",
+  "lesson_label": "雨伞图案设计",
+  "confirm_item_count": 23,
+  "items": [
+    {
+      "path": "basis[1]",
+      "text": "教材版本、册次、页码和学校实际进度仍需教师确认后再进入正式备课。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "basis[1].projection_basis",
+      "text": "单元：上传教案单元待确认",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "basis[1].projection_basis",
+      "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "student_analysis[1]",
+      "text": "四年级学生进入本课时，可能先卡在这里：学生可能知道要完成什么作品或练习，却还需要教师帮助他们把观察发现、材料方法和作品效果联系起来。；课堂上可重点看：学生可能说得出想法却不知道从哪一步开始，或作品完成后说不清为什么这样处理；学生可能把示范当成唯一答案，或忽略工具安全和材料连接限制。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "student_analysis[1].projection_basis",
+      "text": "导入观察：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "student_analysis[1].projection_basis",
+      "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "objectives[1]",
+      "text": "上传原文未明确提供，需教师补充。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "key_difficult_points[1]",
+      "text": "上传原文未明确提供，需教师补充。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "key_difficult_points[1].projection_basis",
+      "text": "导入观察：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "key_difficult_points[1].projection_basis",
+      "text": "展示评价：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "preparation[1]",
+      "text": "上传原文未明确提供，需教师补充。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "preparation[1].projection_basis",
+      "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "preparation[1].projection_basis",
+      "text": "学生准备未在原文中形成稳定条目，需要教师确认。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "assessment_or_homework[1]",
+      "text": "观察证据：导入观察，用于该环节的顺序依据来自原文流程，具体因果需要教师确认。；观察证据：方法示范，用于在学生动手前提供可选择的制作路径和安全边界。；观察证据：设计制作，用于把设计想法放到材料和结构中验证，形成过程证据。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "assessment_or_homework[1].projection_basis",
+      "text": "导入观察：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "assessment_or_homework[1].projection_basis",
+      "text": "展示评价：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "assessment_or_homework[2]",
+      "text": "评价证据：作品中能看出重复或对称规律，学生能说出图案安排理由。",
+      "source_status": "uploaded_source",
+      "teacher_visible_source_label": "上传原文依据"
+    },
+    {
+      "path": "reflection_or_notes[1]",
+      "text": "课前导入预览阶段不生成课堂后记；真实授课后再根据课堂证据和教师判断形成反思候选。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "reflection_or_notes[1].projection_basis",
+      "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据"
+    },
+    {
+      "path": "process_episodes[1]",
+      "text": "导入观察：学生能先说自己的发现或选择，再完成相应的观察、练习或作品片段",
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据"
+    },
+    {
+      "path": "process_episodes[1].micro_steps[1]",
+      "text": "导入观察 / 导入观察：环节：导入观察；教师活动：出示不同雨伞图片，追问伞面图案有什么规律。；学生活动：观察并说出重复、对称、颜色搭配。；设计意图：从生活用品进入纹样观察。",
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据"
+    },
+    {
+      "path": "process_episodes[4]",
+      "text": "展示评价：学生能展示当前成果或学习发现，确认还需要补充的证据",
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据"
+    },
+    {
+      "path": "process_episodes[4].micro_steps[1]",
+      "text": "展示评价 / 展示评价：环节：展示评价；教师活动：组织学生说出自己最满意的一处图案安排。；学生活动：展示作品并互评。；设计意图：用作品证据说明设计效果。",
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据"
+    }
+  ]
+}
